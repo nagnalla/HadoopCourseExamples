@@ -6,3 +6,8 @@ This forms a basis for my Hadoop and Big Data sessions and in this repository I 
 
 Added the maven infrastructure to streamline building the code base. 
 
+To create the jar using maven run the following command. 
+
+$ mvn install 
+
+Maven creates the wordcount-<version>.jar file in the target directory.
