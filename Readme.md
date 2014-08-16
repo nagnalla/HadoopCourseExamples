@@ -10,4 +10,4 @@ To create the jar using maven run the following command.
 
 $ mvn install 
 
-Maven creates the wordcount-<version>.jar file in the target directory.
+Maven creates the wordcount-&lt;version&gt;.jar file in the target directory.
