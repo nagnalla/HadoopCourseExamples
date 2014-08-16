@@ -1,10 +1,5 @@
 Compiling all the source files : 
-$  javac  -classpath `hadoop classpath` -d classes src/*.java
-
-
-Creating the Hadoop Job Jar :
-$ jar -cvf bin/wordcount.jar classes/*.class 
-
+$mvn install 
 
 Upload the file to a specific directory in hdfs :
 $ hadoop fs -mkdir sample/input 
